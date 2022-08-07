@@ -9,7 +9,7 @@ int currentcount = 2;
 
 while(currentcount >= 0)
 {
-    string a = Console.ReadLine();
+    string? a = Console.ReadLine();
     if(a == bb)
     {
         Console.WriteLine(aa);
