@@ -6,7 +6,6 @@ int randomNumber = new Random().Next(1,11);
 Console.WriteLine("Угадайте числ от 1 до 10, у Вас три попытки: ");
 int numberOfAttempts = 2;
 
-
 while(true)
 {
     int number = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +30,3 @@ while(true)
     }
     numberOfAttempts--;
 }
-
-
-
