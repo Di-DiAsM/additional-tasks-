@@ -12,8 +12,8 @@ while(true)
     
     if(number == randomNumber)
     {
-       Console.WriteLine("Верно, вы угадали, это чило: " + randomNumber); 
-       break;
+       Console.WriteLine("Верно, вы угадали, это чило: " + randomNumber);
+       return;
     }
     else if(number > randomNumber)
     {
@@ -26,7 +26,7 @@ while(true)
     if(numberOfAttempts == 0)
     {
         Console.WriteLine("Вы не угадали, загаданное число " + randomNumber);
-        break;
+        return;
     }
     numberOfAttempts--;
 }
